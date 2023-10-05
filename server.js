@@ -5,7 +5,7 @@ const db = require("./app/models");
 
 const app = express();
 const port = 4000;
-var corsOptions = { origin: "https://crud-react-dw.onrender.com/" };
+var corsOptions = { origin: "https://crud-react-dw.onrender.com" };
 
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
